@@ -1,81 +1,42 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
-importance: 2
-category: work
-giscus_comments: true
+title: ROBOCON Competition
+description: 2021 The 20th CURC ROBOCON Robot Competition
+img: assets/img/projects/robocon/logo.jpg
+importance: 1
+category: SUSTech
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## ROBOCON and ARES
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+In my second year at SUSTech, I joined ARES, the SUSTech Robotics team that participates in ROBOCON. ROBOCON is a well-known robotics competition in China and is known for its highly competitive environment and comprehensive engineering training. Here is a brief introduction to the competition:
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+ROBOCON, is an annual international robotics competition that's organized by Asia-Pacific Broadcasting Union (ABU). The teams are tasked with designing and manufacturing their own robots that will compete in a game-based contest. The theme and rules of the competition change every year, promoting creativity and innovation among the participants. It provides an excellent platform for students to showcase their technical skills, creativity, and ability to work as a team.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/projects/robocon/rules.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    The rules of the 20th China University Robot Competition-ROBOCON and the engineering vehicles we build.
 </div>
+
+I joined the SUSTech robot team due to my passion for working and playing with practical robots. I participated in the 20th China University Robot Competition-ROBOCON and accumulated intensive embedded control experience, strengthening my engineering skills and problem-solving ability. This competition took me seven months with seven partners to design and manufacture two robots from scratch. One was the Throwing Robot (TR), used to shoot arrows into competitors’ pots, and another was the Defensive Robot (DR), preventing rival arrows into our pots. Without any embedded knowledge, I spent one-month self-studying C programming language and STM32 development board. Later, I was designated to direct the movement control of the TR’s chassis.
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/projects/robocon/spi.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    The spi interaction between two stm32 board.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
+Of course, this feat didn’t go smoothly. One development board didn’t have enough Controller Area Network (CAN) ports to control all motors due to the new mechanical structure with the need for more actuators. I added an extended board as slave board with complementary CAN ports and used Serial Peripheral Interface (SPI) as inter-board communication. The set-up of SPI was off-the-shelf, but I still met one intractable problem with data loss, which only occurred when the baud rate was higher than 500 KBits/s. Although the problem could be easily avoided using a lower baud rate, I was curious about the root cause. After meticulously checking the set-up process and program, I tried to observe the output signal of master board with the oscilloscope. I found that the SPI Chip Select (CS) pin delayed about 60us during the pull-down process compared with another two data transmission pins. Meanwhile, I consulted a senior member with the oscillograph and circuit element diagram and learned how the decoupling capacitor caused the pull-down delay in the corresponding circuit. This inherent hardware problem of the board could be solved by programming to compensate for this delay, and after a series of trials, the ultimate effective transmission rate can reach 930 KBits/s. This experience deeply inspired me to keep the good habit of keep asking and thinking. Luckily, we won the merit of national 3rd prize in the final competition.
 
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/projects/robocon/group.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
