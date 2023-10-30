@@ -21,7 +21,7 @@ My contribution: Design a keyboard program for simultaneously multi-operation. O
         {% include figure.html path="assets/img/projects/robocom/rules.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/projects/robocom/group.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/projects/robocom/group.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">

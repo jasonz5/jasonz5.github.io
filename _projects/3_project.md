@@ -50,7 +50,7 @@ About hardware test, I design the first generation robot as shown in the followi
 </div>
 
 However, considering the hardware cost about the first generation robot, I choose use spark robot to conduct experiments. 
-<div class="row">
+<div class="row justify-content-sm-center">
     <div class="col-sm-4 mt-3 mt-md-0">
         {% include figure.html path="assets/img/projects/crowd_nav/spark.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
