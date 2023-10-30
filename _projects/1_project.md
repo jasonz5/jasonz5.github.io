@@ -2,7 +2,7 @@
 layout: page
 title: 'SWheg: A Wheel-Leg Transformable Robot'
 description: A tendon-driven wheel-leg transformable robot with minimalist actuator realization.
-img: assets/img/publication_preview/2023JFR_SWheg.jpg
+img: assets/img/projects/swheg/cover.jpg
 importance: 1
 category: SUSTech
 related_publications: dai2022swheg, liu2022hybrid
@@ -64,7 +64,15 @@ Performance (Motion Smoothness) was compared in simulation. Results are shown be
     Conduct experiments for two parts. The first part is step climbing, to test the obstacle-passing capability of robot. The second part is testing the energy efficiency of robot in different types of terrains.
 </div>
 
-> add youtube supplement videos later.
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.html path="https://www.youtube.com/embed/cJOswbhRO_A?si=nNiEJMMXy95hnT1Q" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.html path="https://www.youtube.com/embed/LAovVVSIp7w?si=_yYH6cePBeNWz8p_" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 
 ## My Contribution
 + **Mechatronics Infrastructure**: Finish part of electric control including electric push rods and PID control
