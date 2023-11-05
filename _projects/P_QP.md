@@ -2,7 +2,7 @@
 layout: page
 title: Kinematics Optimization for Redundant Manipulators
 description: Kinematics optimization for redundant manipulators based on MATLAB Simcapse for object tracking.
-img: assets/projects/redundant_arm/cover.png
+img: assets/projects/qp/cover.png
 importance: 1
 category: Projects
 ---
@@ -30,10 +30,10 @@ The target function defined is the speed of the end camera, and the control quan
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.html path="assets/projects/redundant_arm/slack_var.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.html path="assets/projects/qp/slack_var.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.html path="assets/projects/redundant_arm/end_vel.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.html path="assets/projects/qp/end_vel.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
@@ -43,8 +43,8 @@ The target function defined is the speed of the end camera, and the control quan
 The following video shows the simulation of task in MATLAB Simscape under QP.
 
 <div class="row mt-3">
-    <div class="col-6 mt-3 mt-md-0 justify-content-center">
-        {% include video.html path="assets/projects/redundant_arm/task.mp4" class="img-fluid rounded z-depth-1" controls=true %}
+    <div class="col-8 mt-3 mt-md-0 justify-content-center">
+        {% include video.html path="assets/projects/qp/task.mp4" class="img-fluid rounded z-depth-1" controls=true %}
     </div>
 </div>
 <div class="caption">
