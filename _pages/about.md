@@ -8,9 +8,9 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
-  more_info: >
-    <p>jasonzhou314@gmail.com</p>
-    <p>Shenzhen, China</p>
+  # more_info: >
+  #   <p>jasonzhou314@gmail.com</p>
+  #   <p>Shenzhen, China</p>
 
 news: true  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
@@ -18,7 +18,8 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-My name is Jianxiang (Jason) Zhou. I am a Mphil student at the [Hongkong University of Science and Technology, Guangzhou](https://www.hkust-gz.edu.cn/) HKUST(GZ). I received my B.E. in Robotics Engineering at the [Southern University of Science and Technology](https://www.sustech.edu.cn/en/) (SUSTech), where I was supervised by Prof. Zhenzhong Jia.
+My name is Jianxiang (Jason) Zhou. I am a Mphil student at the [Hongkong University of Science and Technology, Guangzhou](https://www.hkust-gz.edu.cn/) HKUST(GZ). I received my B.E. in Robotics Engineering at the [Southern University of Science and Technology](https://www.sustech.edu.cn/en/) (SUSTech).
+<!-- , where I was supervised by Prof. Zhenzhong Jia. -->
 
 I’m broadly interested in human-machine systems, robot control, and human-robot interaction, looking forward to a future where robots are seamlessly incorporated into human society. I am a self-motivated and diligent student. Coming from a humble family, I passed through my undergradute study without any financial support from my parents, and took part-time jobs to meet finacial challenges.
 
