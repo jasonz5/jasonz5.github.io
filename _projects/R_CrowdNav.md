@@ -57,5 +57,5 @@ However, considering the hardware cost about the first generation robot, I choos
     </div>
 </div>
 <div class="caption">
-    Spark robot.
+    Spark robot
 </div>

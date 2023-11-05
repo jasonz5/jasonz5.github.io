@@ -14,7 +14,7 @@ This is the course project of Walking Robot, supervised by Prof. Chenglong Fu at
 Cassie is a robot which was designed based on the joints that birds usually have. Based on Cassie's open-source robot urdf model on GitHub, this paper first introduces the structure of the robot, and applies the 3d linear inverted pendulum model to the gait planning of the robot, and uses pybullet to demonstrate the robot's ability to walk upright, climb stairs and turn around. In short of the time our group are not able to complete the controller that enable the robot to stand on the ground. So we complete our path planning on the open-source model developed by Caltech. Our group compared the global path planning algorithm and the local path planning algorithm of mobile robot. After locating the obstacles by computer vision, the artificial potential field method is used to plan the path independently, and the application of obstacle avoidance algorithm for robot around the pile are realized on Gazebo platform (Ubuntu).
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col-sm-8 mt-3 mt-md-0">
         {% include figure.html path="assets/projects/cassie/2d_lip.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>

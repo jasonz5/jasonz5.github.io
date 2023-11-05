@@ -67,8 +67,10 @@ Performance (Motion Smoothness) was compared in simulation. Results are shown be
 
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include video.html path="https://www.youtube.com/embed/cJOswbhRO_A?si=nNiEJMMXy95hnT1Q" class="img-fluid rounded z-depth-1" %}
+    <div class="col-12 mt-3 mt-md-0">
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/cJOswbhRO_A?si=nNiEJMMXy95hnT1Q" class="img-fluid rounded z-depth-1"></iframe>
+        </div>
     </div>
 </div>
 

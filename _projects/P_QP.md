@@ -43,8 +43,8 @@ The target function defined is the speed of the end camera, and the control quan
 The following video shows the simulation of task in MATLAB Simscape under QP.
 
 <div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include video.html path="assets/projects/redundant_arm/task2_trap.mp4" class="img-fluid rounded z-depth-1" controls=true %}
+    <div class="col-6 mt-3 mt-md-0 justify-content-center">
+        {% include video.html path="assets/projects/redundant_arm/task.mp4" class="img-fluid rounded z-depth-1" controls=true %}
     </div>
 </div>
 <div class="caption">
