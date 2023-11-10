@@ -14,8 +14,8 @@ toc:
 ## ChatGPT注册准备
 
 1. 注册环境：国外的ip，ip地址建议和电话号码的国家保持相同
-   + 方式一：机场，缺点是ip不纯净（目前暂定方法
-   + 方式二：使用美国的VPS，ip独享，之后可以尝试下这个方法，一个教程：[使用远程桌面](https://www.vpsdawanjia.com/6049.html)。
+   + 方式一：机场，缺点是ip不纯净（容易支付失败
+   + 方式二：使用美国的VPS/住宅IP。
 2. 国外手机号码：使用接码平台[sms-activate.org](https://sms-activate.org/cn)。
 3. 电子邮箱：建议使用Gmail邮箱。
    + 注册谷歌邮箱流程
@@ -69,9 +69,6 @@ Tips：如果通过Apple ID注册ChatGPT帐号，建议选择“隐藏邮件地�
   1. **准备好IP地址以后，可以通过whoer.net和ipdata.co评估一下自己的注册环境和IP的质量。**
   2. 倍易付虚拟信用卡：根据虚拟信用卡平台的反馈，目前556766、556735以及531847已经不能充值ChatGPT。（2023年6月17日更新）
   3. 如果在订阅ChatGPT Plus过程中遇到“信用卡被拒绝”的信息提示，那么这个账号就极有可能进入openai的风控名单，建议注册新账号订阅。
-  4. 美区apple id：[2023年美区apple id注册教程，无需信用卡，直接使用中国IP注册](https://www.vpsdawanjia.com/6863.html)
-  5. 美国手机卡：[美国电话卡Ultra Mobile Paygo套餐（3刀神卡）购买、激活及充值教程](https://www.vpsdawanjia.com/4989.html)
-
 
 **常见问题**
 1. 为什么老号不容易支付成功？
