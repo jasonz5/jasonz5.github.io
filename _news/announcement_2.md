@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Start my study at HKUST(GZ) as a Mphil student. :sparkles: 
+Start my study at HKUST(GZ) as a Mphil student major in Data Science and Analytics. :sparkles: 

@@ -18,10 +18,11 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-My name is Jianxiang (Jason) Zhou. I am a Mphil student at the [Hongkong University of Science and Technology, Guangzhou](https://www.hkust-gz.edu.cn/) HKUST(GZ). I received my B.E. in Robotics Engineering at the [Southern University of Science and Technology](https://www.sustech.edu.cn/en/) (SUSTech).
+My name is Jianxiang (Jason) Zhou. I am a Mphil student major in Data Science and Analytics at the [Hongkong University of Science and Technology, Guangzhou](https://www.hkust-gz.edu.cn/) HKUST(GZ), mentored by [Dr. Yuxuan Liang](https://citymind.top/). I received my B.E. in Robotics Engineering at the [Southern University of Science and Technology](https://www.sustech.edu.cn/en/) (SUSTech), mentored by [Dr. Zhenzhong Jia](https://www.sustech.edu.cn/en/faculties/jiazhenzhong.html).
 <!-- , where I was supervised by Prof. Zhenzhong Jia. -->
 
-I’m broadly interested in human-machine systems, robot control, and human-robot interaction, looking forward to a future where robots are seamlessly incorporated into human society. I am a self-motivated and diligent student. Coming from a humble family, I passed through my undergradute study without any financial support from my parents, and took part-time jobs to meet finacial challenges.
+Currently I’m interested in spatiol-temporal data mining and urban computing, looking forward to a future of an efficent and satisfactory samrt city for human society. I am a self-motivated and diligent student. Coming from a humble family, I passed through my undergradute study without any financial support from my parents, and took part-time jobs to meet finacial challenges.
+<!-- I’m broadly interested in human-machine systems, robot control, and human-robot interaction, looking forward to a future where robots are seamlessly incorporated into human society. I am a self-motivated and diligent student. Coming from a humble family, I passed through my undergradute study without any financial support from my parents, and took part-time jobs to meet finacial challenges. -->
 
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
